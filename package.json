@@ -16,5 +16,13 @@
     "url": "https://github.com/DanyloShyshkovskyi/todo-list2/issues"
   },
   "homepage": "https://github.com/DanyloShyshkovskyi/todo-list2#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@koa/router": "^8.0.8",
+    "koa": "^2.11.0",
+    "koa-static": "^5.0.0"
+  },
+  "scripts": {
+  "start": "node server/index.js"
+}	
 }
